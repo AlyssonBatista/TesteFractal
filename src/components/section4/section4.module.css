@@ -1,0 +1,42 @@
+.section4 {
+  display: flex;
+  justify-content: center;
+  background-color: #5287DD;  
+}
+
+ .section4DIV1 h1{
+  font-style: normal;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 62px;
+  margin-top: 80px;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+  width: 500px;
+  height: 124px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.section4 a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 62px;
+  text-decoration: none;
+  width: 314px;
+  height: 62px;
+  border-radius: 8px;
+  background-color: #5287DD;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  text-align: center;
+  justify-items: center;
+  margin-bottom: 80px;
+}
+
+.section4DIV2 {
+  display: flex;
+  justify-content: center;
+}

@@ -21,7 +21,7 @@ module.exports = {
           },
           {
             name: `Work Sans`,
-            file: `https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap`
+            file: `https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;900&display=swap`
           }
         ],
       },

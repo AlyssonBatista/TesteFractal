@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 164px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.realizacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-right: 120px;
+}
+
+.apoio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
