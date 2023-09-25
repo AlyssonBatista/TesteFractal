@@ -15,8 +15,8 @@ export default function Por() {
         <Link className={index.ativo} to="/">PT</Link>
         <Link className={index.linkInativo} to="/index2">ES</Link>
       </header> 
-      <Main />
-      <Footer />
+      {/* <Main />
+      <Footer /> */}
     </>
   )
 }
