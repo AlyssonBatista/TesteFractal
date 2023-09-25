@@ -1,0 +1,31 @@
+.section2GRID {
+  display: flex;
+  background: #5287DD;
+  justify-content: center;
+ margin-top: 75px; 
+}
+
+.section2GRID h1 {
+  max-width: 570px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 62px;
+  color: #FFFFFF;
+  word-wrap: break-word;
+}
+
+.section2GRID p {
+  max-width: 470px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  word-wrap: break-word;
+  margin-top: 32px ;
+}
+
+.section2DIV{
+  margin:  90px 600px 90px 0px;
+}

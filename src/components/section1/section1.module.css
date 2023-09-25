@@ -1,0 +1,48 @@
+.section1Grid {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-right: 600PX;
+}
+
+.section1Grid p {
+  max-width: 570px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #2B2B2B;
+  height: 74px;
+  margin-top: 25px;
+}
+
+.section1Grid h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #5287DD;
+  margin-top: 25px;
+}
+
+.section1Grid ul {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 15px;
+}
+
+.section1Grid span {
+  font-weight: 700;
+}
+
+.sectionIMG2 {
+  position: absolute;
+  right: -920px;
+  margin-top: 60px;
+}
+
+.section1Div{
+  position: absolute;
+}
