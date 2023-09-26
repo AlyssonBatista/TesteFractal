@@ -10,7 +10,7 @@ import * as index from "../pages/index.module.css"
 import { graphql } from "gatsby"
 
 export default function Por({ data }) {
-  console.log(data)
+
   const { descricao,titulo,li1,span1,li2,span2,li3,span3,li4,span4,titulo2,descricao2,titulo3,descricao3,botaoInscricao,regulamento,titulo4,botaoInscricao2,footerRea,footerApo  } = data.site.siteMetadata.portugues
   return (
     <>
