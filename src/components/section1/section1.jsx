@@ -1,19 +1,19 @@
 import React from "react";
 import * as section1CSS from "../section1/section1.module.css"
 
-export default function Section1(){
+export default function Section1(props){
   return (
     <>
     <section className={section1CSS.section1Grid}>
       <div>
         <img src="/img1.svg" alt="" />
-        <p>Uma olimpíada para alunos e professores da região das fronteiras entre Argentina, Brasil e Paraguai que querem colocar suas ideias sobre desenvolvimento sustentável em prática!</p>
-        <h2>Cronograma</h2>
+        <p>{props.p}</p>
+        <h2>{props.h2}</h2>
         <ul>
-          <li>Inscrições: <span>até 26 de novembro</span></li>
-          <li>Entrega dos projeteis: <span>25 e 26 de novembro</span></li>
-          <li>Divulgação dos finalistas: <span>28 de novembro</span></li>
-          <li>Apresentação final: <span>2 de dezembro</span></li>
+          <li>{props.li1} <span>{props.span1}</span></li>
+          <li>{props.li2} <span>{props.span2}</span></li>
+          <li>{props.li3} <span>{props.span3}</span></li>
+          <li>{props.li4} <span>{props.span4}</span></li>
         </ul>
       </div>
       <div className={section1CSS.section1Div}>
