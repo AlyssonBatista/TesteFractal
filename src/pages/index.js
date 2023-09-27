@@ -23,7 +23,7 @@ export default function Por({ data }) {
       <Section2 h1={titulo2} p={descricao2} />
       <Section3 h1={titulo3} p={descricao3} span={botaoInscricao} a={regulamento} />
       <Section4 h1={titulo4} a={botaoInscricao2} />
-      {/* <Footer p1={footerRea} p2={footerApo} /> */}
+      <Footer p1={footerRea} p2={footerApo} />
     </>
   )
 }

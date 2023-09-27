@@ -1,26 +1,113 @@
-.footer {
+.footerDIV {
   display: flex;
-  justify-content: center;
-  height: 164px;
+  align-items: center;
+  gap: 25px;
+}
+
+.apoio {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.apoio p {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px; 
-   max-width: 100%;
+  line-height: 18px;
 }
 
 .realizacao {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 28px;
-  margin-right: 120px;
+  gap: 25px;
 }
 
-.apoio {
+.realizacao p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
 
+.footerDIV {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 28px;
+  gap: 60px;
+  height: 150px;
+}
+
+@media (max-width: 1190px) {
+  .apoio {
+    gap: 10px;
+  }
+
+  .realizacao {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .footerDIV {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  .apoio {
+    gap: 10px;
+  }
+
+  .realizacao {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerDIV {
+    height: 280px;
+    margin: 50px 0px 50px 0px;
+  }
+  
+  .realizacao {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    column-gap: 50px;
+    row-gap: 15px;
+    max-width: 600px;
+  }
+
+  .realizacao p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    grid-column: 1/-1;
+    max-width: 600px;
+  }
+
+  .apoio {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  .apoio p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    grid-column: 1/-1;
+    max-width: 600px;
+  }
+
+.imgItaipu{
+  margin-right: 30px ;
+}
+
+
 }
