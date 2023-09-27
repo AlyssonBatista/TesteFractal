@@ -5,17 +5,20 @@ export default function Section3(props){
   return (
     <>
     <section className={section3CSS.section3}>
-      <div className={section3CSS.section3DIV1}>
-        <h1>{props.h1}</h1>
-        <p>{props.p}</p>
-        <span>{props.span}</span>
-        <div className={section3CSS.section3DIV2}>
-          <a href="https://fractaltecnologia.com.br/" target="_blank">{props.a}</a>
-        </div>
-      </div>
-      <div className={section3CSS.section3DIV3}>
-        <img src={"/img3.png"} alt="imagem lupa" />
-      </div>
+      
+        {/* <div className={section3CSS.section3DIV1}> */}
+          <div className={section3CSS.section3DIV1}>
+            <div></div>
+            <div>
+              <h1>{props.h1}</h1>
+              <p>{props.p}</p>
+              <h2>{props.span}</h2>
+              <div className={section3CSS.section3DIV2}>
+                <a href="https://fractaltecnologia.com.br/" target="_blank">{props.a}</a>
+              </div>
+            </div>
+          </div>
+          <img src={"/img3.png"} alt="imagem lupa" />      
     </section>
     </>
   )

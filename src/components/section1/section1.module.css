@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 600px){
+  .section1{
+    max-width: 600px;
+  }
   .section1 p{
     font-size: 30px;
     line-height: 33px;
@@ -104,15 +107,18 @@
   }
   .sectionIMG1 {
     display: none;
+    margin: 0px ;
+
   }
   .sectionIMG2{
     display: inline;
     max-width: 600px;
-    margin: 0px 0px 30px 30px;
+    margin: 0px 0px 7px 14px;
+
   }
   .imgMobile{
     display: inline;
     max-width: 600px;
-    margin: 0px 21px 30px 15px;
+    margin: 0px 10px 10px 10px;
   }
 }

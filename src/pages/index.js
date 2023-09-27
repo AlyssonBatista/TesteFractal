@@ -21,8 +21,8 @@ export default function Por({ data }) {
       </header>
       <Section1 p={descricao} h2={titulo} li1={li1} span1={span1} li2={li2} span2={span2} li3={li3} span3={span3} li4={li4} span4={span4} />
       <Section2 h1={titulo2} p={descricao2} />
-      {/* <Section3 h1={titulo3} p={descricao3} span={botaoInscricao} a={regulamento} />
-      <Section4 h1={titulo4} a={botaoInscricao2} />
+      <Section3 h1={titulo3} p={descricao3} span={botaoInscricao} a={regulamento} />
+      {/* <Section4 h1={titulo4} a={botaoInscricao2} />
       <Footer p1={footerRea} p2={footerApo} /> */}
     </>
   )

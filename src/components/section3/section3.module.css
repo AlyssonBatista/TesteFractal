@@ -1,16 +1,17 @@
 .section3 {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 
 }
 
 .section3 h1 {
+  width: 515px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 900;
   font-size: 68px;
   line-height: 62px;
   color: #2B2B2B;
-  word-wrap: break-word;
 }
 
 .section3 p {
@@ -25,8 +26,9 @@
   margin-bottom: 32px;
 }
 
-.section3 span {
-  max-width: 599px;
+.section3 h2 {
+  max-width: 486px;
+  height: 60px;
   color: #EDEDED;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.375rem;
@@ -37,7 +39,7 @@
   border: 3px solid;
   text-align: center;
   border-radius: 8px;
-  padding: 18px;
+  padding: 8px;
 }
 
 .section3 a {
@@ -50,21 +52,91 @@
 }
 
 .section3DIV1 {
-  max-width: 570px;
-  margin: 90px 600px 90px 0px;
+  display: flex;
+  justify-content: end;
+  margin: 90px 70px 90px 90px;
 }
 
 .section3DIV2 {
   margin-top: 18px;
 }
 
-.section3DIV3 {
-  position: absolute;
-}
-
 .section3 img {
-  position: absolute;
-  right: -750px;
   max-width: 500px;
   padding: 61px 206px 97px 50px;
+}
+
+ 
+.section3 img {}
+
+@media (max-width:1190px) {
+  .section3 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 90px 0px 90px;
+  }
+
+  .section3 img {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0px;
+    max-width: 100%;
+  }
+
+  .section3DIV1 {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 90px 0px 0px 0px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .section3 img {
+    margin-left: 40px;
+    max-width: 600px;
+  }
+
+  .section3 h1 {
+    max-width: 600px;
+    font-size: 65px;
+    line-height: 60px;
+    margin-left: 35px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .section3 p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    max-width: 600px;
+    margin: 20px 10px 32px 10px;
+    padding: 0px;
+    text-align: center;
+
+  }
+
+  .section3DIV1 h2 {
+    font-size: 35px;
+    line-height: 38px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 15px 0px 30px 0px;
+  }
+
+  .section3DIV2 {
+    display: flex;
+    justify-content: center;
+    margin: 18px 55px 18px;
+  }
+
+  .section3DIV2 a {
+    margin: 0px;
+    font-size: 33px;
+    line-height: 33px;
+    align-items: stretch;
+    max-width: 100%;
+  }
 }
