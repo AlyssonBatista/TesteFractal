@@ -62,12 +62,9 @@
 }
 
 .section3 img {
-  max-width: 500px;
-  padding: 61px 206px 97px 50px;
+  max-width: 600px;
 }
 
- 
-.section3 img {}
 
 @media (max-width:1190px) {
   .section3 {
