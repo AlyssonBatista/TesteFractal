@@ -1,11 +1,11 @@
-.section1Grid {
+.section1 {
   display: flex;
   justify-content: center;
   gap: 35px;
   margin-right: 600PX;
 }
 
-.section1Grid p {
+.section1 p {
   max-width: 570px;
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
@@ -16,7 +16,7 @@
   margin-top: 25px;
 }
 
-.section1Grid h2 {
+.section1 h2 {
   font-family: 'Dosis', sans-serif;
   font-weight: 700;
   font-size: 22px;
@@ -25,26 +25,94 @@
   margin-top: 25px;
 }
 
-.section1Grid ul {
+.section1 ul {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   margin-top: 15px;
-  margin-bottom: 75px; 
+  margin-bottom: 75px;
 
 }
 
-.section1Grid span {
+.section1 span {
   font-weight: 700;
 }
-
-.sectionIMG2 {
-  position: absolute;
-  right: -920px;
+.imgMobile{
+  display: none;
+}
+.sectionIMG2{
+  display: none;
+}
+.sectionIMG3 {
+  position: relative;
+  right: -600px;
   margin-top: 60px;
 }
 
-.section1Div{
+.section1Div {
   position: absolute;
+}
+
+@media (max-width: 1190px) {
+  .section1 {
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    justify-content: center;
+  }
+  .sectionIMG3 {
+    right: -550px;
+  }
+}
+
+
+@media (max-width: 1140px) {
+  .section1 {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionIMG3 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px){
+  .section1 p{
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0px 15px 90px 15px;
+    max-width: 600px;
+  }
+  .section1 li{
+    font-size: 30px;
+    text-align: center;
+    line-height: 33px;
+  }
+  .section1 h2{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 900;
+    max-width: 600px;
+    margin: 0px 15px 15px 15px;
+  }
+  .section1 ul {
+    max-width: 600px;
+  }
+  .sectionIMG1 {
+    display: none;
+  }
+  .sectionIMG2{
+    display: inline;
+    max-width: 600px;
+    margin: 0px 0px 30px 30px;
+  }
+  .imgMobile{
+    display: inline;
+    max-width: 600px;
+    margin: 0px 21px 30px 15px;
+  }
 }

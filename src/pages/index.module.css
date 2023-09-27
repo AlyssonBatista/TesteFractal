@@ -90,4 +90,27 @@ table {
   color: black;
 }
 
+@media (max-width:1000px) {
+  .headerGrid {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 600px){
+  .headerGrid{
+    height: 120px;
+    gap: 15px;
+    grid-template-columns: auto auto auto;
+    max-width: 600px;
+    margin: 0px 0px 0px 200px;
+    font-size: 20px;
+    height: 90px;
+  }
+
+  .ativo{
+    width: 55px;
+    height: 55px;
+    border: 1.5px solid #2B2B2B;
+  }
+}
 /* Fim estilos do HEADER ######################################################################## */

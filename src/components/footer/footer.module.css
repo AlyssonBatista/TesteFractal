@@ -5,7 +5,8 @@
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 18px; 
+   max-width: 100%;
 }
 
 .realizacao {
@@ -17,6 +18,7 @@
 }
 
 .apoio {
+
   display: flex;
   justify-content: center;
   align-items: center;
