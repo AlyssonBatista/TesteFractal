@@ -91,61 +91,7 @@
   }
 }
 
-@media (min-height:1080px){
-  html {
-    overflow-x: hidden;
-  }
-
-  .section1 {
-    max-width: 600px;
-  }
-
-  .section1 p {
-    font-size: 30px;
-    line-height: 33px;
-    text-align: center;
-    padding-left: 50px;
-    max-width: 600px;
-  }
-
-  .section1 li {
-    font-size: 30px;
-    text-align: center;
-    line-height: 33px;
-    max-width: 600px;
-    margin: 10px 0px;
-  }
-
-  .section1 h2 {
-    font-size: 50px;
-    line-height: 60px;
-    text-align: center;
-    font-weight: 900;
-    max-width: 600px;
-    padding-left: 50px;
-  }
-
-  .section1 ul {
-    max-width: 600px;
-    padding-left: 50px;
-  }
-
-  .sectionIMG1 {
-    display: none;
-  }
-
-  .sectionIMG2 {
-    display: inline;
-    max-width: 600px;
-    padding-left: 50px;
-  }
-
-  .imgMobile {
-    display: inline;
-    max-width: 600px;
-    padding-left: 50px;
-  }
-}
+ 
 
 @media (max-width: 600px) {
   html {
