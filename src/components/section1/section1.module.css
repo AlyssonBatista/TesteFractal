@@ -55,6 +55,9 @@
 }
 
 @media (max-width: 1190px) {
+  html{
+    overflow-x: hidden;
+  }
   .section1 {
     margin-right: 0px;
     display: grid;
@@ -69,6 +72,9 @@
 
 
 @media (max-width: 1180px) {
+  html{
+    overflow-x: hidden;
+  }
   .section1 {
     display: flex;
     justify-content: center;
@@ -79,6 +85,9 @@
 }
 
 @media (max-width: 800px){
+  html{
+    overflow-x: hidden;
+  }
   .section1{
     max-width: 600px;
   }

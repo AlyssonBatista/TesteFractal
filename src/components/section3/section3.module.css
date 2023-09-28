@@ -67,6 +67,9 @@
 
 
 @media (max-width:1190px) {
+  html{
+    overflow-x: hidden;
+  }
   .section3 {
     display: grid;
     grid-template-columns: auto;
@@ -90,6 +93,9 @@
 }
 
 @media (max-width: 800px) {
+  html{
+    overflow-x: hidden;
+  }
   .section3 img {
     margin-left: 40px;
     max-width: 600px;

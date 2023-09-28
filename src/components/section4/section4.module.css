@@ -43,6 +43,9 @@
 }
 
 @media (max-width:800px) {
+  html{
+    overflow-x: hidden;
+  }
   .section4 {
     height: 650px;
     max-width: 600px;

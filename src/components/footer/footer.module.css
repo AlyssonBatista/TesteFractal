@@ -38,6 +38,9 @@
 }
 
 @media (max-width: 1190px) {
+  html{
+    overflow-x: hidden;
+  }
   .apoio {
     gap: 10px;
   }
@@ -48,6 +51,9 @@
 }
 
 @media (max-width: 1020px) {
+  html{
+    overflow-x: hidden;
+  }
   .footerDIV {
     display: grid;
     grid-template-columns: 1fr;
@@ -65,6 +71,9 @@
 }
 
 @media (max-width: 800px) {
+  html{
+    overflow-x: hidden;
+  }
   .footerDIV {
     height: 280px;
     margin: 50px 0px 50px 0px;
