@@ -64,7 +64,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .footerDIV {
     height: 280px;
     margin: 50px 0px 50px 0px;
