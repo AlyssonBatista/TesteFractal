@@ -89,7 +89,7 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .section3 img {
     margin-left: 40px;
     max-width: 600px;
