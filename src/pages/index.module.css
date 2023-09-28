@@ -98,6 +98,7 @@ table {
 }
 
 @media (max-width: 600px){
+  
   .headerGrid{
     height: 120px;
     gap: 15px;
@@ -106,6 +107,7 @@ table {
     margin: 0px 0px 0px 200px;
     font-size: 20px;
     height: 90px;
+    
   }
 
   .ativo{

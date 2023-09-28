@@ -41,7 +41,7 @@
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 600px){
   html{
     overflow-x: hidden;
   }
