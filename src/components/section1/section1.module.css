@@ -76,7 +76,7 @@
 }
 
 
-@media (max-width: 1180px) {
+@media (max-width: 1188px) {
   html {
     overflow-x: hidden;
   }
@@ -147,7 +147,7 @@
     margin: 0px 0px 0px 15px;
   }
 }
-
+/* iphone se  */
 @media (max-width: 588px) {
   html {
     overflow-x: hidden;
@@ -170,7 +170,7 @@
     font-size: 30px;
     text-align: center;
     line-height: 33px;
-    max-width: 600px;
+    max-width: 588px;
     margin-bottom: 12px;
     margin-left: 30px;
   }
@@ -207,8 +207,63 @@
   }
 }
 
-/* @media (max-width:540px) {
-  .section1 {
-    background-color: aqua;
+@media (max-width:535px) {
+  html {
+    overflow-x: hidden;
   }
-} */
+
+  .section1 {
+    max-width: 535px;
+  }
+
+  .section1 p {
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    max-width: 515px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+  }
+
+  .section1 li {
+    font-size: 29px;
+    text-align: center;
+    line-height: 33px;
+    max-width: 520px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+  }
+
+  .section1 h2 {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 900;
+    max-width: 500px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .section1 ul {
+    max-width: 530px;
+    margin-left: 0px;
+  }
+
+  .sectionIMG1 {
+    display: none;
+  }
+
+  .sectionIMG2 {
+    display: inline;
+    max-width: 480px;
+    margin-left: 31px;
+  }
+
+  .imgMobile {
+    display: inline;
+    max-width: 480px;
+    margin-left: 24px;
+  }
+}
+ 

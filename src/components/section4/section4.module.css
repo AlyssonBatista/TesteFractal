@@ -69,3 +69,31 @@
     border: 4px solid #FFFFFF;
   }
 }
+
+@media (max-width:535px) {
+  html{
+    overflow-x: hidden;
+  }
+  .section4 {
+    height: 650px;
+    max-width: 600px;
+    font-size: 30px;
+    place-content: center;
+  }
+
+  .section4 h1 {
+    font-size: 65px;
+    line-height: 70px;
+    max-width: 600px;
+    margin: 180px 0px 140px 0px;
+    height: 50px;
+  }
+
+  .section4 a{
+    max-width: 600px;
+    font-size: 27px;
+    margin: 0px;
+    padding: 18px 70px;
+    border: 4px solid #FFFFFF;
+  }
+}
