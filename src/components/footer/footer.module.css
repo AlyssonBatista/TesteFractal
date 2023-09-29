@@ -74,7 +74,7 @@
 
  
  
-
+/* GALAXY A8 2018 */
 @media (max-width: 600px) {
   html {
     overflow-x: hidden;
@@ -128,7 +128,62 @@
 
 }
 
+/* GALAXY S20 ULTRA */
 @media (max-width: 588px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  .footerDIV {
+    height: 280px;
+    margin: 50px 0px 50px 30px;
+    max-width: 528px;
+  }
+
+  .realizacao {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    column-gap: 40px;
+    row-gap: 15px;
+    max-width: 588px;
+  }
+
+  .realizacao p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    grid-column: 1/-1;
+    max-width: 588px;
+  }
+
+  .apoio {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    max-width: 588px;
+  }
+
+  .apoio p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    grid-column: 1/-1;
+    max-width: 588px;
+  }
+
+  .imgItaipu {
+    margin-right: 30px;
+  }
+
+
+}
+
+/* iphone SE */
+@media (max-width: 570px) {
   html {
     overflow-x: hidden;
   }
@@ -160,7 +215,7 @@
   .apoio {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 0px;
+    gap: 5px;
     justify-content: center;
     max-width: 588px;
   }
@@ -181,7 +236,7 @@
 
 }
 
-
+/* galaxy S8+ */
 @media (max-width: 535px) {
   html {
     overflow-x: hidden;
@@ -189,7 +244,7 @@
 
   .footerDIV {
     height: 280px;
-    margin: 50px 0px 50px 7px;
+    margin: 50px 0px 50px 10px;
     max-width: 500px;
   }
 
@@ -216,7 +271,7 @@
   .apoio {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 0px;
+    gap: 10px;
     justify-content: center;
     max-width: 588px;
   }

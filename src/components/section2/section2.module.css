@@ -22,33 +22,37 @@
   line-height: 23px;
   color: #FFFFFF;
   word-wrap: break-word;
-  margin-top: 32px ;
+  margin-top: 32px;
 }
 
-.section2DIV{
-  margin:  90px 600px 90px 0px;
+.section2DIV {
+  margin: 90px 600px 90px 0px;
 }
 
-@media (max-width: 1190px){
-  html{
+@media (max-width: 1190px) {
+  html {
     overflow-x: hidden;
   }
-  .section2DIV{
-    margin:  90px 0px 90px 0px;
+
+  .section2DIV {
+    margin: 90px 0px 90px 0px;
   }
-  .section2GRID{
+
+  .section2GRID {
     margin-right: 0px;
   }
 }
-
-@media (max-width: 600px){
-  html{
+/* GALAXY A8 2018 */
+@media (max-width: 600px) {
+  html {
     overflow-x: hidden;
   }
-  .section2GRID{
+
+  .section2GRID {
     max-width: 600px;
   }
-  .section2GRID h1{
+
+  .section2GRID h1 {
     text-align: center;
     max-width: 600px;
     font-size: 80px;
@@ -57,7 +61,7 @@
     padding-top: 130px;
   }
 
-  .section2GRID p{
+  .section2GRID p {
     text-align: center;
     font-size: 32px;
     line-height: 39px;
@@ -66,41 +70,49 @@
   }
 }
 
-@media (max-width: 588px){
-  html{
+/* galaxy S20 ULTRA */
+@media (max-width: 588px) {
+  html {
     overflow-x: hidden;
   }
-  .section2GRID{
-    max-width:700px;
-  }
-  .section2GRID h1{
-    text-align: center;
+
+  .section2GRID {
     max-width: 588px;
+  }
+
+  .section2GRID h1 {
+    text-align: center;
+    max-width: 500px;
     font-size: 80px;
     line-height: 70px;
     margin: 0px 15px 30px 15px;
     padding-top: 130px;
   }
 
-  .section2GRID p{
+  .section2GRID p {
     text-align: center;
     font-size: 32px;
     line-height: 39px;
-    max-width: 588px;
+    max-width: 500px;
     margin: 0px 16px 120px 16px;
+  }
+
+  .section2DIV {
+    max-width: 900px;
   }
 }
 
-
-@media (max-width: 535px){
-  html{
+/* iphone SE */
+@media (max-width: 570px) {
+  html {
     overflow-x: hidden;
   }
-  .section2GRID{
-    max-width:535px;
-   
+
+  .section2GRID {
+    max-width: 550px;
   }
-  .section2GRID h1{
+
+  .section2GRID h1 {
     text-align: center;
     max-width: 500px;
     font-size: 80px;
@@ -109,11 +121,47 @@
     padding-top: 130px;
   }
 
-  .section2GRID p{
+  .section2GRID p {
     text-align: center;
     font-size: 32px;
     line-height: 39px;
     max-width: 500px;
     margin: 0px 16px 120px 16px;
+  }
+
+  .section2DIV {
+    max-width: 900px;
+  }
+}
+
+/*  galaxy S8+ */
+@media (max-width: 535px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  .section2GRID {
+    max-width: 100%;
+  }
+
+  .section2GRID h1 {
+    text-align: center;
+    max-width: 100%;
+    font-size: 80px;
+    line-height: 70px;
+    margin: 0px 0px 30px 0px;
+    padding-top: 130px;
+  }
+
+  .section2GRID p {
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;
+    max-width: 100%;
+    margin: 0px 0px 120px 0px;
+  }
+
+  .section2DIV {
+    max-width: 480px;
   }
 }
